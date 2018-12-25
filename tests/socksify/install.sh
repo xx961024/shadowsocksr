@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -d dante-1.4.0 ]; then
-    wget https://github.com/xx961024/SSR/blob/master/file/dante/dante-1.4.0.tar.gz || exit 1
+    wget https://raw.githubusercontent.com/xx961024/SSR/master/file/dante/dante-1.4.0.tar.gz || exit 1
     tar xf dante-1.4.0.tar.gz || exit 1
 fi
 pushd dante-1.4.0
